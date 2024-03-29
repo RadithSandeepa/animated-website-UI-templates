@@ -48,4 +48,4 @@ Feel free to fork this repository and contribute to the project. Help implement 
 <a id="Try-Now"></a>
 ## Try Now
 
-Visit the parallax scrolling website project hosted on [insert_link_here] and immerse yourself in a captivating scrolling experience!🌟🖱️
+Visit the parallax scrolling website project hosted on https://radithsandeepa.github.io/parallax-scrolling-effect-website-UI-template1/ and immerse yourself in a captivating scrolling experience!🌟🖱️
