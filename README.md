@@ -14,7 +14,7 @@ This project demonstrates how to create a website with a parallax scrolling effe
 <a id="Screenshots"></a>
 ## Screenshots
 
-![UI](https://github.com/RadithSandeepa/parallax-scrolling-effect-website-UI-template1/blob/main/Images/screenshot.png)
+![UI](https://github.com/RadithSandeepa/animated-website-UI-templates/blob/main/Images/screenshot.png)
 
 <a id="Features"></a>
 ## Features
