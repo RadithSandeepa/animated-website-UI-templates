@@ -14,7 +14,7 @@ This project showcases the creation of an animated Christmas-themed website usin
 <a id="Screenshots"></a>
 ## Screenshots
 
-![UI](https://github.com/RadithSandeepa/parallax-scrolling-effect-website-UI-template1/blob/main/Images/screenshot.png)
+![UI](https://github.com/RadithSandeepa/animated-website-UI-templates/blob/two/Images/Screenshot.png)
 
 <a id="Features"></a>
 ## Features
@@ -27,7 +27,7 @@ This project showcases the creation of an animated Christmas-themed website usin
   1.Clone the repository:
 
 ```bash
-  git clone https://github.com/RadithSandeepa/parallax-scrolling-effect-website-UI-template1.git
+  git clone -b two https://github.com/RadithSandeepa/animated-website-UI-templates.git
 ```
 
 
@@ -48,4 +48,4 @@ Feel free to fork this repository and contribute to the project. Help implement 
 <a id="Try-Now"></a>
 ## Explore Now
 
-Visit the animated Christmas website project hosted on GitHub Pages and immerse yourself in a festive wonderland of animated joy! 🎄✨
+Visit the animated Christmas website and immerse yourself in a festive wonderland of animated joy! 🎄✨
