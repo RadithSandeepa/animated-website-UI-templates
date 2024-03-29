@@ -14,7 +14,7 @@ This project showcases the creation of an animated Christmas-themed website usin
 <a id="Screenshots"></a>
 ## Screenshots
 
-![UI](https://github.com/RadithSandeepa/parallax-scrolling-effect-website-UI-template1/blob/main/Images/screenshot.png)
+![UI](https://github.com/RadithSandeepa/animated-website-UI-templates/blob/two/Images/Screenshot.png)
 
 <a id="Features"></a>
 ## Features
