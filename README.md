@@ -9,7 +9,7 @@ This project demonstrates how to create a website with a parallax scrolling effe
 - [Setup Instructions](#Setup-Instructions)
 - [Potential Improvements](#Potential-Improvements)
 - [Contributing](#Contributing)
-- [Try Now](#Try-Now)
+- [Explore Now](#Explore-Now)
 
 <a id="Screenshots"></a>
 ## Screenshots
@@ -46,6 +46,6 @@ This project demonstrates how to create a website with a parallax scrolling effe
 Feel free to fork this repository and contribute to the project. Help implement new features, or suggest improvements to enhance the project.
 
 <a id="Try-Now"></a>
-## Try Now
+## Explore Now
 
 Visit the parallax scrolling website project hosted on https://radithsandeepa.github.io/parallax-scrolling-effect-website-UI-template1/ and immerse yourself in a captivating scrolling experience!🌟🖱️
