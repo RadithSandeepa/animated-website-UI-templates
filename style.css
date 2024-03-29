@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,122 +8,75 @@
 }
 
 body{
-    background: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     min-height: 100vh;
-    overflow-x: hidden;
-    
+    background: url('Images/background.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 header{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     padding: 30px 100px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    z-index: 100;
-}
-/* pointer-events: none; element will not respond to mouse events such as clicking or hovering*/
-.logo{
-    font-size: 2em;
-    color: #359381;
-    pointer-events: none;
-    margin-right: 270px;
 }
 
 .navigation a{
-    text-decoration: none;
-    color: #359381;
-    padding: 6px 15px;
-    border-radius: 20px;
-    margin: 0px 10px;
-    font-weight: 600;
-    
-}
-
-.navigation a:hover,.navigation a.active{
-    background: #359381;
-    color: #fff
-}
-
-.parallax{
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
-
-#text{
-    position: absolute;
-    font-size: 5em;
     color: #fff;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    font-size: 1.1em;
+    margin: 0 7px;
+    text-decoration: none;
+    padding: 6px 20px;
 }
 
-.parallax img{
+.navigation a span{
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    pointer-events: none;
-   
+    height: 100%;
+    border: 2px solid #fff;
+    border-radius: 7px;
+    transform: scale(0);
+    transition: 0.5s;
+    opacity: 0;
 }
 
-.sec{
-    position: relative;
-    background: #003329;
-    padding: 100px;
+.navigation a:hover span{
+    transform: scale(1);
+    opacity: 1;
 }
 
-.sec h2{
-    font-size: 3em;
-    color: #fff;
-    margin-bottom: 10px;
+.text h1{
+    font-size: 9em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    background: url('Images/back-text.png');
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: backText 20s linear infinite alternate;
 }
+/*-webkit-background-clip: text;: This property specifies that the
+ background image should be clipped to the text area, meaning 
+ it will only be visible where the text is visible.*/
 
-.sec p{
-   font-size: 1em;
-   color: #fff;
-   font-weight: 300;
-}
+ /*-webkit-text-stroke: 1px #fff;: This property applies a stroke (
+outline) to the text with a width of 1 pixel and a color of white (#fff). 
+The -webkit- prefix is used for compatibility with certain web browsers, 
+such as Safari and olderversions of Chrome.*/
 
-/* Add a media query for mobile devices */
-@media only screen and (max-width: 800px) {
-    .navigation {
-        display: none; /* Hide the navigation links by default */
-        position: absolute;
-        top: 60px; /* Adjust the top position based on your header height */
-        right: 10px;
-        background: #003329; /* Match the background color of the header */
-        border-radius: 5px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-
-    .navigation.active {
-        display: flex; /* Show the navigation links when active */
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .navigation a {
-        display: block;
-        padding: 10px 20px;
-        color: #fff;
-        text-align: center;
-        margin-bottom: 5px;
-        font-weight: 600;
-    }
-
-    .parallax{
-        height: 50vh;
+@keyframes backText{
+    100%{
+        background-position: 2000px 0;
     }
 }
-
-
-
-
