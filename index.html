@@ -2,23 +2,67 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animated Website</title>
+    <title>Parallax Scrolling Effect Website</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
+        <h2 class="logo">Logo</h2>
         <nav class="navigation">
-            <a href="#">Home<span></span></a>
+            <a href="#" class="active">Home<span></span></a>
             <a href="#">About<span></span></a>
-            <a href="#">Gifts<span></span></a>
-            <a href="#">Services<span></span></a>
+            <a href="#">Service<span></span></a>
             <a href="#">Contact<span></span></a>
         </nav>
+        <div class="menu-toggle" onclick="toggleMenu()"></div>
     </header>
 
-    <div class="text">
-        <h1>Merry<br>Christmas</h1>
-    </div>
+    <section class="parallax">
+        <h2 id="text">Parallax Website</h2>
+        <img src="Images/tree-left.png" id="tree-left">
+        <img src="Images/tree-right.png" id="tree-right">
+        <img src="Images/gate-left.png" id="gate-left">
+        <img src="Images/gate-right.png" id="gate-right">
+        <img src="Images/grass.png" id="grass">
+    </section>
+    
+    <section class="sec">
+        <h2>Parallax Scrolling Website</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta asperiores debitis doloremque consequatur placeat aperiam numquam, 
+            culpa at cum nam aliquid atque maiores quasi, odio sit iusto nihil, quidem error. Assumenda, atque harum a recusandae eos provident
+            debitis obcaecati accusamus asperiores, sequi ut saepe rem unde laudantium est reiciendis voluptates explicabo sunt, corporis veniam 
+            ea! Illum et molestias fugit, impedit quisquam error, deleniti, sed repudiandae exercitationem dignissimos in? Consequuntur odio ipsum
+            culpa eveniet dicta exercitationem repellat magni hic cumque adipisci sapiente, temporibus asperiores blanditiis delectus quod necessitatibus
+            nesciunt impedit modi. Nam aspernatur quaerat culpa, fugiat, omnis rem quos iure distinctio in minus quidem! Quia incidunt ipsum iusto cum inventore, a, 
+            aliquid natus consequuntur minima, quis unde. Nostrum, aliquam quas. Nobis.
+            <br><br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta asperiores debitis doloremque consequatur placeat aperiam numquam, 
+            culpa at cum nam aliquid atque maiores quasi, odio sit iusto nihil, quidem error. Assumenda, atque harum a recusandae eos provident
+            debitis obcaecati accusamus asperiores, sequi ut saepe rem unde laudantium est reiciendis voluptates explicabo sunt, corporis veniam 
+            ea! Illum et molestias fugit, impedit quisquam error, deleniti, sed repudiandae exercitationem dignissimos in? Consequuntur odio ipsum
+            culpa eveniet dicta exercitationem repellat magni hic cumque adipisci sapiente, temporibus asperiores blanditiis delectus quod necessitatibus
+            nesciunt impedit modi. Nam aspernatur quaerat culpa, fugiat, omnis rem quos iure distinctio in minus quidem! Quia incidunt ipsum iusto cum inventore, a, 
+            aliquid natus consequuntur minima, quis unde. Nostrum, aliquam quas. Nobis.
+            <br><br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta asperiores debitis doloremque consequatur placeat aperiam numquam, 
+            culpa at cum nam aliquid atque maiores quasi, odio sit iusto nihil, quidem error. Assumenda, atque harum a recusandae eos provident
+            debitis obcaecati accusamus asperiores, sequi ut saepe rem unde laudantium est reiciendis voluptates explicabo sunt, corporis veniam 
+            ea! Illum et molestias fugit, impedit quisquam error, deleniti, sed repudiandae exercitationem dignissimos in? Consequuntur odio ipsum
+            culpa eveniet dicta exercitationem repellat magni hic cumque adipisci sapiente, temporibus asperiores blanditiis delectus quod necessitatibus
+            nesciunt impedit modi. Nam aspernatur quaerat culpa, fugiat, omnis rem quos iure distinctio in minus quidem! Quia incidunt ipsum iusto cum inventore, a, 
+            aliquid natus consequuntur minima, quis unde. Nostrum, aliquam quas. Nobis.
+            <br><br>
+        </p>
+    </section>
+    <script>
+        function toggleMenu() {
+            var navigation = document.querySelector('.navigation');
+            navigation.classList.toggle('active');
+        }
+    </script>
 </body>
 </html>
