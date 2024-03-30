@@ -1,7 +1,7 @@
 
-# Animated Christmas Website
+# Parallax Scrolling Effect Website UI Template
 
-This project showcases the creation of an animated Christmas-themed website using HTML and CSS
+This project demonstrates how to create a website with a parallax scrolling effect using HTML, CSS, and JavaScript.
 ## Table of Contents
 
 - [Screenshots](#Screenshots)
@@ -14,12 +14,12 @@ This project showcases the creation of an animated Christmas-themed website usin
 <a id="Screenshots"></a>
 ## Screenshots
 
-![UI](https://github.com/RadithSandeepa/animated-website-UI-templates/blob/two/Images/Screenshot.png)
+![UI](https://github.com/RadithSandeepa/animated-website-UI-templates/blob/main/Images/screenshot.png)
 
 <a id="Features"></a>
 ## Features
 
-- Festive Animation: Delightful animations and visual effects bring the Christmas spirit to life.
+- Smooth scrolling: JavaScript is used to implement smooth scrolling behavior as the user navigates through the webpage.
 
 <a id="Setup-Instructions"></a>
 ## Setup Instructions
@@ -27,13 +27,13 @@ This project showcases the creation of an animated Christmas-themed website usin
   1.Clone the repository:
 
 ```bash
-  git clone -b two https://github.com/RadithSandeepa/animated-website-UI-templates.git
+  git clone -b main https://github.com/RadithSandeepa/animated-website-UI-templates.git
 ```
 
 
  2.Open the index.html file in your preferred web browser.
 
- 3.Experience the joy of the holiday season with captivating animations and interactive elements.
+ 3.Explore the parallax scrolling effect by scrolling through the webpage.
 
 <a id="Potential-Improvements"></a>
 ## Potential Improvements
@@ -48,4 +48,4 @@ Feel free to fork this repository and contribute to the project. Help implement 
 <a id="Try-Now"></a>
 ## Explore Now
 
-Visit the animated Christmas website and immerse yourself in a festive wonderland of animated joy! 🎄✨
+Visit the parallax scrolling website project hosted on https://radithsandeepa.github.io/animated-website-UI-templates/ and immerse yourself in a captivating scrolling experience!🌟🖱️
