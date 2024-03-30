@@ -1,5 +1,5 @@
 
-# Parallax Scrolling Effect Website
+# Parallax Scrolling Effect Website UI Template
 
 This project demonstrates how to create a website with a parallax scrolling effect using HTML, CSS, and JavaScript.
 ## Table of Contents
