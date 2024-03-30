@@ -48,4 +48,4 @@ Feel free to fork this repository and contribute to the project. Help implement 
 <a id="Try-Now"></a>
 ## Explore Now
 
-Visit the parallax scrolling website project hosted on https://radithsandeepa.github.io/animated-website-UI-templates/ and immerse yourself in a captivating scrolling experience!🌟🖱️
+Visit the parallax scrolling website project and immerse yourself in a captivating scrolling experience!👻🎃🧛‍♂️🌙
