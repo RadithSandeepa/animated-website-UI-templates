@@ -1,5 +1,5 @@
 
-# Animated Christmas Website
+# Animated Christmas Website UI Template
 
 This project showcases the creation of an animated Christmas-themed website using HTML and CSS
 ## Table of Contents
