@@ -27,7 +27,7 @@ This project showcases the creation of an animated Christmas-themed website usin
   1.Clone the repository:
 
 ```bash
-  git clone -b two https://github.com/RadithSandeepa/animated-website-UI-templates.git
+  git clone --single-branch -b two https://github.com/RadithSandeepa/animated-website-UI-templates.git
 ```
 
 
