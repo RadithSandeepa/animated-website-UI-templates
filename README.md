@@ -27,7 +27,7 @@ This project demonstrates how to create a website with a parallax scrolling effe
   1.Clone the repository:
 
 ```bash
-  git clone -b three https://github.com/RadithSandeepa/animated-website-UI-templates.git
+  git clone --single-branch -b three https://github.com/RadithSandeepa/animated-website-UI-templates.git
 ```
 
 
